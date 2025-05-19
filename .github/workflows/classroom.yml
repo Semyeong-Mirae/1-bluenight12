@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Inherit
         setup-command: ''
-        command: gradle run
+        command: javac App.java && java App
         input: ''
         expected-output: 안녕하세요
         comparison-method: contains
