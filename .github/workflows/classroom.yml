@@ -21,7 +21,7 @@ jobs:
         setup-command: ''
         command: javac App.java && java App
         input: ''
-        expected-output: 안녕하세요
+        expected-output: hello
         comparison-method: contains
         timeout: 10
     - name: Autograding Reporter
