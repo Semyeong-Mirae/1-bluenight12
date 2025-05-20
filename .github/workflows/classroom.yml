@@ -20,8 +20,10 @@ jobs:
         test-name: Inherit
         setup-command: ''
         command: javac App.java && java App
-        input: ''
-        expected-output: hello
+        input: |-
+          1
+          1
+        expected-output: '2'
         comparison-method: contains
         timeout: 10
     - name: Autograding Reporter
